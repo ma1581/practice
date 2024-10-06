@@ -1,0 +1,4 @@
+filepipe.txt
+fileredire.txt
+file.txt
+lsredir.txt

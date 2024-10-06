@@ -1,0 +1,1000 @@
+ 1403  sudo ifconfig enp7s0 192.168.1.5 netmask 255.255.255.0 down
+ 1404  ifconfig 
+ 1405  sudo systemctl start NetworkManager
+ 1406  sudo ifconfig enp7s0 up
+ 1407  ifconfig 
+ 1408  ls
+ 1409  exit
+ 1410  ls
+ 1411  exit
+ 1412  gnome-control-center 
+ 1413  cd
+ 1414  mkdir ./searchdirectory
+ 1415  rm searchdirectory/
+ 1416  rmdir searchdirectory/
+ 1417  ls
+ 1418  sudo nala install tracker
+ 1419  sudo nala remove thunar
+ 1420  sudo nala autoremove
+ 1421  sudo nala install thunar
+ 1422  lss
+ 1423  ls
+ 1424  org.gnome.Shell.Extensions.GSConnect.SearchProvider
+ 1425  cerebro
+ 1426  sudo nala install cerebro
+ 1427  sudo nala install Cerebro
+ 1428  ls
+ 1429  cp 21mar23/ 28mar23/
+ 1430  ls
+ 1431  cd 21mar23/
+ 1432  ls
+ 1433  ls .*
+ 1434  ls ./.*
+ 1435  ls
+ 1436  ls .*
+ 1437  ls
+ 1438  ls .*
+ 1439  ls .?*
+ 1440  ls .??*
+ 1441  ls .?*
+ 1442  ls .[!.]*
+ 1443  ls .*[!.]*
+ 1444  ls .**
+ 1445  ls .[!.]*
+ 1446  ls .*[!.]*
+ 1447  ls .**
+ 1448  ls .*[!.]*
+ 1449  ls
+ 1450  rm ch*
+ 1451  ls
+ 1452  touch ch[1-4]
+ 1453  ls
+ 1454  rm ch\[1-4\] 
+ 1455  touch ch{1-4}
+ 1456  ls
+ 1457  rm ch\{1-4\} 
+ 1458  touch ch{1...4}
+ 1459  ls
+ 1460  touch ch{1..4}
+ 1461  ls
+ 1462  rm ch\{1...4\} 
+ 1463  ls
+ 1464  touch ch{01..04}
+ 1465  ls
+ 1466  touch *a
+ 1467  ls
+ 1468  ls *
+ 1469  ls [*]*
+ 1470  ls *a
+ 1471  ll
+ 1472  ls ?a
+ 1473  ls
+ 1474  touch 'ch*'
+ 1475  ls
+ 1476  touch ch*
+ 1477  ls
+ 1478  rm ch[!0-9]
+ 1479  ls
+ 1480  cd 
+ 1481  cd Downloads/
+ 1482  ls
+ 1483  cd FileZilla3/
+ 1484  ls
+ 1485  la
+ 1486  ls -ail
+ 1487  sudo nala install filezilla
+ 1488  sudo nala remove thunar
+ 1489  sudo nala install nautilus
+ 1490  echo //
+ 1491  echo \
+ 1492  echo \\
+ 1493  echo //
+ 1494  sudo firewall-cmd --list-all
+ 1495  ssh junaid@192.168.74.76
+ 1496  ls
+ 1497  ifconfig 
+ 1498  sudo firewall-cmd --list-all
+ 1499  ls
+ 1500  cd /etc/
+ 1501  l
+ 1502  ls
+ 1503  ls *shell*
+ 1504  cat shells 
+ 1505  cd 
+ 1506  ls
+ 1507  la
+ 1508  la -x
+ 1509  ls
+ 1510  cd Thunar/
+ 1511  ls
+ 1512  ifconfig
+ 1513  ssh ma1581@172.17.13.179
+ 1514  ssh ma1581@172.17.13.180
+ 1515  ssh 172.17.13.179
+ 1516  ssh 172.17.13.180
+ 1517  ssh 172.17.13.178
+ 1518  ssh 172.17.13.170
+ 1519  history 
+ 1520  history | grep "nmap"
+ 1521  ifconfig 
+ 1522  nmap -sn 172.17.13.0
+ 1523  nmap -sn 172.17.15.0
+ 1524  nmap -sn 172.17.0.0
+ 1525  ipcalc 192.168.0.1
+ 1526  ipcalc 172.17.13.179
+ 1527  ipcalc 172.17.13.179/20
+ 1528  nmap -sn 172.17.0.0/20
+ 1529  ls
+ 1530  exit
+ 1531  ifconfig 
+ 1532  sudo nala install samba
+ 1533  ssh 192.168.0.101
+ 1534  ssh sameem@192.168.0.101
+ 1535  ls
+ 1536  lss
+ 1537  ls
+ 1538  git init lss
+ 1539  ls
+ 1540  nano ~/.bashrc
+ 1541  ls
+ 1542  mv 21mar23/ lss
+ 1543  ls
+ 1544  mv file-permission-hierarchy/ lss
+ 1545  ls
+ 1546  mv yt-shell-script/ lss
+ 1547  mv test.txt trial.txt lss
+ 1548  cat remote-server-command-execution.txt 
+ 1549  ls
+ 1550  cd lss/
+ 1551  cd ..
+ 1552  mv lss lss-repo
+ 1553  ls
+ 1554  cd lss-repo/
+ 1555  ls
+ 1556  git add .
+ 1557  git commit -m "LSS Session initial git repo"
+ 1558  ls
+ 1559  git add .
+ 1560  git commit -m "LSS Session initial git repo repeat"
+ 1561  ls
+ 1562  git log
+ 1563  git add .
+ 1564  git historu
+ 1565  git history
+ 1566  git status
+ 1567  ls
+ 1568  git add yt-shell-script/
+ 1569  git status
+ 1570  git commit -m "Second commit"
+ 1571  git add yt-shell-script/.
+ 1572  git commit -m "Second commit"
+ 1573  ls
+ 1574  git commit -m "Second commit"
+ 1575  mv yt-shell-script/ ../
+ 1576  git add .
+ 1577  git commit -m "Second commit"
+ 1578  ls
+ 1579  mkdir 29mar23
+ 1580  cd 29mar23/
+ 1581  nano file.txt
+ 1582  ls
+ 1583  cat file.txt 
+ 1584  cat file.txt | filecat.txt
+ 1585  cat file.txt > filecat.txt
+ 1586  ls
+ 1587  cat filecat.txt 
+ 1588  mv filecat.txt fileredire.txt
+ 1589  ls
+ 1590  cat file.txt | cat >>  filecat.txt
+ 1591  ls
+ 1592  cat filecat.txt 
+ 1593  mv filecat.txt filepipe.txt
+ 1594  ls
+ 1595  ls > lsredir.txt
+ 1596  cat lsredir.txt 
+ 1597  ls | cat >> lspipe.txt
+ 1598  cat lspipe.txt 
+ 1599  ls
+ 1600  ls d
+ 1601  ls d > erredir.txt
+ 1602  ls d | cat >> erredir.txt
+ 1603  ls d > erredir.txt
+ 1604  ls d | cat >> erpipe.txt
+ 1605  ls
+ 1606  cat erpipe.txt 
+ 1607  cat erredir.txt 
+ 1608  ls
+ 1609  ls -l
+ 1610  touch file2.txt
+ 1611  ll
+ 1612  echo "will be deleted soon" > del.txt
+ 1613  ls
+ 1614  cat del.txt 
+ 1615  ll
+ 1616  cat ls > del.txt 
+ 1617  ll
+ 1618  cat del.txt 
+ 1619  cat ls 2> del.txt 
+ 1620  cat del.txt 
+ 1621  ma ls 2> del.txt 
+ 1622  cat del.txt 
+ 1623  man ls 2>> del.txt 
+ 1624  an ls 2>> del.txt 
+ 1625  cat del.txt 
+ 1626  ls
+ 1627  cd ..
+ 1628  ls
+ 1629  mv emp* 29mar23/
+ 1630  ls
+ 1631  git add .
+ 1632  cd 29mar23/
+ 1633  ls
+ 1634  nano emp.lst 
+ 1635  nano emp1.lst 
+ 1636  nano emp.lst 
+ 1637  cat emp.lst | grep "|"
+ 1638  cat emp.lst | grep "-"
+ 1639  mv ../yt-shell-script/ ../..
+ 1640  git add ../.
+ 1641  git commit -m "Before changing emp.lst"
+ 1642  ls
+ 1643  cat emp.lst >> grep "-"
+ 1644  git sta
+ 1645  git status 
+ 1646  ls
+ 1647  ls grep 
+ 1648  cat grep 
+ 1649  git add ../.
+ 1650  git commit -m "after changing emp.lst"
+ 1651  ls
+ 1652  cat emp.lst | grep "Ag"
+ 1653  cat emp.lst | grep "ag"
+ 1654  cat emp.lst 
+ 1655  cat emp.lst | grep "jame"
+ 1656  head emp1.lst 
+ 1657  cat emp1.lst 
+ 1658  wc emp1.lst 
+ 1659  head emp1.lst 
+ 1660  wc emp.lst 
+ 1661  head emp.lst 
+ 1662  head -1 emp.lst 
+ 1663  head -2 emp.lst 
+ 1664  head -2 emp.lst 
+ 1665  head -n 2 emp.lst 
+ 1666  man head 
+ 1667  head -10 emp.lst 
+ 1668  head -10 emp.lst > emp10.lst
+ 1669  cat emp.lst
+ 1670  cat emp10.lst 
+ 1671  cat emp10.lst | grep "-"
+ 1672  cat emp10.lst | grep "-" >> emp10.lst 
+ 1673  cat emp10.lst 
+ 1674  git add ../.
+ 1675  git commit -m "Push after making file from grepping pattern on a shortlisted file"
+ 1676  git log
+ 1677  ls
+ 1678  lsusb 
+ 1679  ls usb 
+ 1680  ls
+ 1681  cat emp.lst 
+ 1682  man cut
+ 1683  cut -d "|" -f 1,2 emp.lst 
+ 1684  cut -d "|" -f 1,2 emp1.lst 
+ 1685  cut -d "|" -f 1 emp1.lst 
+ 1686  man cut
+ 1687  cut -d "|" -f 2 emp1.lst 
+ 1688  cut -d "|" -f 3 emp1.lst 
+ 1689  cut -d " " -f 3 emp1.lst 
+ 1690  cut -f 3 emp1.lst 
+ 1691  cut -f 1 emp1.lst 
+ 1692  cut -d -f 1 emp.lst 
+ 1693  cut -f 1 emp.lst 
+ 1694  cut -d "-" -f 1 emp.lst 
+ 1695  cut -d "-" -f 1,1 emp.lst 
+ 1696  cut -d "-" -f 1,2 emp.lst 
+ 1697  cut -d "g" -f 1,2 emp.lst 
+ 1698  cut -d "g" -f 1 emp.lst 
+ 1699  cut -f 1 emp.lst 
+ 1700  cut -d "|" -f 1 emp.lst 
+ 1701  cut -d "|" -f 1 emp1.lst 
+ 1702  cut emp1.lst 
+ 1703  cAt emp1.lst 
+ 1704  cat emp1.lst 
+ 1705  cut -d "|" -f 1 emp1.lst 
+ 1706  cut -d "|" -f 1,2 emp1.lst 
+ 1707  cut -d "|" -f 2 emp1.lst 
+ 1708  cut -d "|" -f 1,4 emp1.lst 
+ 1709  man cut
+ 1710  cut -c 55-55 emp1.lst 
+ 1711  cat emp1.lst 
+ 1712  cut -c 1 emp1.lst 
+ 1713  cut -c 2 emp1.lst 
+ 1714  cat emp1.lst 
+ 1715  cut -c 1-2 emp1.lst 
+ 1716  cut -c 5-2 emp1.lst 
+ 1717  cut -c 5-5 emp1.lst 
+ 1718  cut -c 1-5 emp1.lst 
+ 1719  cut -d "|" -f 2 emp1.lst 
+ 1720  cut -d "|" -f 1,2 emp1.lst 
+ 1721  ls
+ 1722  git log
+ 1723  cut -d "|" -f 1,2 emp10.lst 
+ 1724  cut -d "|" -f 1,2,3 emp10.lst 
+ 1725  cut -d "|" -f 1,2,3 emp10.lst > cutlist.lst
+ 1726  cat cutlist.lst 
+ 1727  git add .
+ 1728  git commit -m "Made another shortlist named cutlist "
+ 1729  ls
+ 1730  mkdir filter
+ 1731  mv emp* filter/
+ 1732  ls
+ 1733  mkdir redirect
+ 1734  mv ls* er* del* file* redirect/
+ 1735  ls
+ 1736  mv grep redirect/
+ 1737  mv cutlist.lst filter/
+ 1738  git add .
+ 1739  git commit -m "Organised"
+ 1740  cd filter/
+ 1741  ls
+ 1742  mv ../../../yt-shell-script/ ../../
+ 1743  cd ../../
+ 1744  ls
+ 1745  cd yt-shell-script/
+ 1746  ls
+ 1747  rm .git/
+ 1748  rm -r .git/
+ 1749  cd ..
+ 1750  git add .
+ 1751  git commit -m "added yt repo as  folder"
+ 1752  ls
+ 1753  cd 29mar23/
+ 1754  ls
+ 1755  cd filter/
+ 1756  ls
+ 1757  cat emp10.lst;CAT cutlist.lst;paste emp10.lst cutlist.lst 
+ 1758  cat emp10.lst;cat cutlist.lst;paste emp10.lst cutlist.lst 
+ 1759  paste emp10.lst cutlist.lst 
+ 1760  man paste
+ 1761  cat emp1.lst 
+ 1762  sort  emp1.lst 
+ 1763  cat >> emp1.lst 
+ 1764  sort  emp1.lst 
+ 1765  nano emp1.lst 
+ 1766  man sort 
+ 1767  sort -t "|" -k 2 emp1.lst 
+ 1768  sort -t "|" -k 3 emp1.lst 
+ 1769  sort -t "|" -k 1 emp1.lst 
+ 1770  sort emp1.lst 
+ 1771  sort -t "|" -k 6  emp1.lst 
+ 1772  sort -t "|" -k6  emp1.lst 
+ 1773  sort -t "|" -k n6  emp1.lst 
+ 1774  sort -t "|" -kn6  emp1.lst 
+ 1775  sort -t "|" -k 6nr  emp1.lst 
+ 1776  sort -t "|" -k 6r  emp1.lst 
+ 1777  sort -t "|" -k 6n  emp1.lst 
+ 1778  sort -t "|" -k 6  emp1.lst 
+ 1779  ls
+ 1780  nano .bashrc
+ 1781  cd lss
+ 1782  lss
+ 1783  source ~/.bashrc
+ 1784  cd 
+ 1785  lss
+ 1786  cd lss
+ 1787  ls
+ 1788  cat argno.sh 
+ 1789  cat chkroot.sh 
+ 1790  cat count.sh 
+ 1791  cat hello 
+ 1792  ls
+ 1793  cat msg.sh 
+ 1794  cat print.sh 
+ 1795  mkdir lss
+ 1796  ls
+ 1797  mv argno.sh chkroot.sh count.sh fistrepo hello kk LSS read.sh  check.txt demo-repo file.sh  hl.txt  gitrepo kk.txt msg.sh print.sh rr task.sh lss
+ 1798  ls
+ 1799  cd lss/
+ 1800  ls *
+ 1801  ls -ail *
+ 1802  ls
+ 1803  ls * ~/Downloads/rv/lss/
+ 1804  mv * ~/Downloads/rv/lss/
+ 1805  ls
+ 1806  tree
+ 1807  tree ~/Downloads/rv/lss/LSS
+ 1808  tree ~/Downloads/rv/lss
+ 1809  ls ~/Downloads/rv/lss
+ 1810  ls ~/Downloads/rv/lss/LSS
+ 1811  cd ~/Downloads/rv/lss/LSS
+ 1812  cd ~/Downloads/rv/lss/
+ 1813  ls
+ 1814  mv ~/lss/ ~/Downloads/rv/lss/
+ 1815  ls
+ 1816  ls LSS
+ 1817  ls
+ 1818  cd LSS
+ 1819  ls
+ 1820  tree lss
+ 1821  mv lss/LSS/ .
+ 1822  mv lss/LSS/ ./
+ 1823  mv lss/LSS ./
+ 1824  cd lss
+ 1825  ls
+ 1826  mv LSS/ ../
+ 1827  cd ..
+ 1828  ls
+ 1829  cat LSS
+ 1830  mv LSS-note.txt
+ 1831  mv LSS LSS-note.txt
+ 1832  ls
+ 1833  cd lss
+ 1834  mv LSS/ ../
+ 1835  ls
+ 1836  cd ..
+ 1837  ls
+ 1838  rm lss
+ 1839  rmdor lss
+ 1840  rmdir lss
+ 1841  ls
+ 1842  cd ..
+ 1843  cd
+ 1844  history | grep "ftp"
+ 1845  ifconfig
+ 1846  history | grep "pro"
+ 1847  sudo nala install proftpd ftp
+ 1848  ping 192.168.0.110
+ 1849  ftp 192.168.0.110
+ 1850  samba 192.168.0.110
+ 1851  man samba
+ 1852  samba -
+ 1853  samba -i 192.168.0.110
+ 1854  sudo systemctl status smbd.service 
+ 1855  ifconfig
+ 1856  ping 192.168.0.110
+ 1857  sudo smbpasswd -a ma1581
+ 1858  lsof -i :80
+ 1859  lsof -i :22
+ 1860  lsof -i:22
+ 1861  lsof -i:1716
+ 1862  lsof -i:80
+ 1863  firewall-cmd --list-services 
+ 1864  sudo firewall-cmd --list-services 
+ 1865  sudo systemctl status proftpd.
+ 1866  sudo systemctl status proftpd
+ 1867  nano /etc/samba/smb.conf 
+ 1868  sudo nano /etc/samba/smb.conf 
+ 1869  sudo systemctl restart smbd.service 
+ 1870  sudo systemctl restart smbd
+ 1871  scp /etc/samba/smb.conf sameem@192.168.0.110:/etc/samba/
+ 1872  sudo scp /etc/samba/smb.conf sameem@192.168.0.110:/etc/samba/
+ 1873  sudo scp /etc/samba/smb.conf sameem@192.168.0.110:~/
+ 1874  mv /etc/samba/smb.conf /etc/samba/smb.conf.bkp
+ 1875  sudo mv /etc/samba/smb.conf /etc/samba/smb.conf.bkp
+ 1876  ls /etc/samba/
+ 1877  sudo mv smb.conf /etc/samba/
+ 1878  ls /etc/samba/
+ 1879  sudo systemctl restart smbd
+ 1880  sudo apt install smbclient
+ 1881  smbclient 192.168.0.110
+ 1882  smbclient -kL 192.168.0.110
+ 1883  smbclient -k -L 192.168.0.110
+ 1884  smbclient -L 192.168.0.110
+ 1885  sudo systemctl restart smbd
+ 1886  smbclient -L 192.168.0.110
+ 1887  history | grep "install"
+ 1888  sudo apt remove smbclient samba Cerebro cerebro thunar 
+ 1889  sudo apt remove smbclient samba thunar 
+ 1890  sudo apt autoremove 
+ 1891  sudo apt update
+ 1892  sudo apt upgrade
+ 1893  sudo systemctl status proftpd
+ 1894  sudo systemctl status ftp
+ 1895  lsof -i
+ 1896  sudo systemctl status smbd.service 
+ 1897  sudo apt autoremoce
+ 1898  sudo apt autoremove
+ 1899  sudo systemctl status proftpd.service 
+ 1900  sudo apt install cbm
+ 1901  cbm
+ 1902  vnstat
+ 1903  sudo apt install vnstat
+ 1904  vnstat
+ 1905  cbm
+ 1906  sftp 192.168.0.110
+ 1907  sftp sameem@192.168.0.110
+ 1908  sudo apt install byptop
+ 1909  sudo apt install bpytop
+ 1910  bpytop
+ 1911  bpytop > file.txt
+ 1912  ls
+ 1913  cat file.txt '
+ 1914  cat file.txt
+ 1915  bpytop |cat  file.txt
+ 1916  bpytop |nano  file.txt
+ 1917  cat file.txt
+ 1918  tracker
+ 1919  sudo apt install recoll
+ 1920  ls
+ 1921  nano /etc/sysconfig/
+ 1922  sudo nano /etc/sysconfig/
+ 1923  sudo apt install catfish
+ 1924  history | grep "install"
+ 1925  sudo apt remove catfish recoll vnstat cbm filezilla 
+ 1926  sudo apt autoremove
+ 1927  sudo apt update;sudo apt upgrade
+ 1928  sudo apt install kubuntu-desktop 
+ 1929  ls
+ 1930  exit
+ 1931  git clone --single-branch --depth=1 https://github.com/Luwx/Lightly.git
+ 1932  cd Lightly && mkdir build && cd build
+ 1933  cmake -DCMAKE_INSTALL_PREFIX=/usr -DCMAKE_INSTALL_LIBDIR=lib -DBUILD_TESTING=OFF ..
+ 1934  make
+ 1935  sudo make install
+ 1936  ifconfig
+ 1937  history| grep "up" 
+ 1938  sudo ifconfig enp7s0 192.168.1.5 netmask 255.255.255.0 up
+ 1939  ifconfig
+ 1940  sftp 192.168.0.4
+ 1941  ping 192.168.0.4
+ 1942  ping 192.168.0.5
+ 1943  ping 192.168.1.4
+ 1944  sftp 192.168.1.4
+ 1945  ftp 192.168.1.4
+ 1946  ssh 192.168.1.4
+ 1947  man ssh
+ 1948  ssh 192.168.1.4
+ 1949  ls
+ 1950  rm bca-materials.7z 
+ 1951  ls
+ 1952  ssh root@192.168.1.4
+ 1953  ls
+ 1954  sudo apt remove steam
+ 1955  sudo apt remove steam-libs-amd64 
+ 1956  sudo apt remove steam-libs-i386 
+ 1957  sudo apt remove firefox
+ 1958  firefox
+ 1959  sudo apt remove firefox
+ 1960  sudo dnf install Lightly
+ 1961  sudo apt install Lightly
+ 1962  sudo apt install cmake build-essential libkf5config-dev libkdecorations2-dev libqt5x11extras5-dev qtdeclarative5-dev extra-cmake-modules libkf5guiaddons-dev libkf5configwidgets-dev libkf5windowsystem-dev libkf5coreaddons-dev libkf5iconthemes-dev gettext qt3d5-dev
+ 1963  sudo apt install quota
+ 1964  wap-lab
+ 1965  nano .bashrc
+ 1966  source .bashrc
+ 1967  wap-lab
+ 1968  sudo apt -y  update;sudo apt -y  upgrade
+ 1969  sudo apt update
+ 1970  sudo apt upgrade
+ 1971  sudo apt autoremove
+ 1972  sudo apt -y autoremove
+ 1973  cbm
+ 1974  history | grep "firewall"
+ 1975  firewall-cmd --get-active-zones 
+ 1976  firewall-cmd --zone=public --list-all 
+ 1977  sudo -i
+ 1978  ls
+ 1979  lss
+ 1980  nano .bashrc
+ 1981  source .bashrc
+ 1982  lss
+ 1983  ls
+ 1984  nano .bashrc
+ 1985  source .bashrc
+ 1986  lss
+ 1987  ls Documents/
+ 1988  cd lss
+ 1989  nano .bashrc
+ 1990  source .bashrc
+ 1991  lss
+ 1992  ls
+ 1993  cd lss-repo/
+ 1994  ls
+ 1995  cd yt-shell-script/
+ 1996  ls
+ 1997  cat add.sh 
+ 1998  cat variables.sh 
+ 1999  nano ~/.bashrc
+ 2000  source ~/.bashrc
+ 2001  cd 
+ 2002  ls
+ 2003  cd $lss
+ 2004  $lss
+ 2005  echo $lss
+ 2006  cd lss
+ 2007  cd $lss
+ 2008  nano ~/.bashrc
+ 2009  source ~/.bashrc
+ 2010  cd $lss
+ 2011  code $lss
+ 2012  nano ~/.bashrc
+ 2013  ls
+ 2014  source ~/.bashrc
+ 2015  lss
+ 2016  cd lss-repo/
+ 2017  git remote -v
+ 2018* 
+ 2019  git remote -v list
+ 2020  man git
+ 2021  man git | grep "git"
+ 2022  man git | grep "remote"
+ 2023  git -v remote
+ 2024  git remote 
+ 2025  git remote -v
+ 2026  git remote -v list
+ 2027  git remote -v al
+ 2028  ls
+ 2029  mv 29mar23/ '29/04mar23'/
+ 2030  ls
+ 2031  mkdir '29/04mar23'/
+ 2032  mkdir '2904mar23'/
+ 2033  ls
+ 2034  mkdir '29//04mar23'/
+ 2035  rmdir 2904mar23/
+ 2036  mv 29mar23/ 29mar23-4apr23/
+ 2037  ls
+ 2038  cd 29mar23-4apr23/
+ 2039  ls
+ 2040  cd filter/
+ 2041  ls
+ 2042  lss
+ 2043  ls
+ 2044  less chkroot.sh 
+ 2045  mv -r argno.sh bin check.txt chkroot.sh count.sh ctl-statement/ demo-repo/ fistrepo/ gitrepo/ hello hl.txt kk kk.txt LSS/ lss-repo/
+ 2046  ls
+ 2047  mv -r argno.sh bin check.txt chkroot.sh count.sh  hello hl.txt kk kk.txt  lss-repo/
+ 2048  mv  argno.sh bin check.txt chkroot.sh count.sh  hello hl.txt kk kk.txt  lss-repo/
+ 2049  ls
+ 2050  mv ctl-statement/ demo-repo/ file.sh fistrepo/ gitrepo/ LSS/ lss-repo/
+ 2051  ls
+ 2052  mv task.sh rr/ remote-server-command-execution.txt read.sh msg.sh print.sh lss-repo/
+ 2053  ls
+ 2054  cd lss-repo/
+ 2055  ls
+ 2056  mkdir git-session
+ 2057  mv demo-repo/ gitrepo/ fistrepo/ git-session/
+ 2058  ls
+ 2059  mkdir shell-script-session
+ 2060  mv argno.sh chkroot.sh count.sh file.sh msg.sh print.sh read.sh ctl-statement/ task.sh yt-shell-script/ shell-script-session/
+ 2061  ls
+ 2062  cd 29mar23-4apr23/
+ 2063  ls
+ 2064  cd filter/
+ 2065  ls
+ 2066  man head
+ 2067  head cutlist.lst -n
+ 2068  head -n cutlist.lst
+ 2069  head cutlist.lst -n
+ 2070  man head
+ 2071  head cutlist.lst -n=10
+ 2072  head cutlist.lst -n=3
+ 2073  head -n=3 cutlist.lst 
+ 2074  man head
+ 2075  head -3 cutlist.lst 
+ 2076  head -4 cutlist.lst 
+ 2077  man head
+ 2078  head -n4 cutlist.lst 
+ 2079  head -c4 cutlist.lst 
+ 2080  man head
+ 2081  head -q cutlist.lst 
+ 2082  head  cutlist.lst 
+ 2083  man head
+ 2084  head -z cutlist.lst 
+ 2085  head cutlist.lst 
+ 2086  head -z cutlist.lst 
+ 2087  cat cutlist.lst 
+ 2088  man head
+ 2089  tail cutlist.lst 
+ 2090  tail -4cutlist.lst 
+ 2091  tail -4 cutlist.lst 
+ 2092  tail -c4 cutlist.lst 
+ 2093  tail -c104 cutlist.lst 
+ 2094  tail -n12 cutlist.lst| head 4
+ 2095  tail -n12 cutlist.lst| head -4
+ 2096  tail -n12 cutlist.lst
+ 2097  tail -n12 emp.lst| head -4
+ 2098  ls
+ 2099  sudo tail /var/log/syslog
+ 2100  cat emp1.lst 
+ 2101  tail -9 emp1.lst | head -4
+ 2102  tail -10 emp1.lst | head -4
+ 2103  tail -9 emp1.lst | head -4
+ 2104  tail -9 emp1.lst | head -5
+ 2105  tail -8 emp1.lst | head -4
+ 2106  cat emp1.lst 
+ 2107  tail -8 emp1.lst | head -4
+ 2108  head -12 emp1.lst | tail -4
+ 2109  head -12 emp1.lst | tail -n 4
+ 2110  head -12 emp1.lst | tail -4
+ 2111  cut -d "|" -f emp.lst 
+ 2112  cut -d "|" -f emp1.lst 
+ 2113  cut -d "|" -f 1 emp1.lst 
+ 2114  cut -d "|" -f 1 emp.lst 
+ 2115  cut -d "|" -f 1 emp1.lst 
+ 2116  cut -d "|" -f 1 emp.lst 
+ 2117  cut -d "|" -f 1 emp1.lst 
+ 2118  cat emp1
+ 2119  cat emp1.lst 
+ 2120  cut -d "|" -f 1 emp1.lst 
+ 2121  cut -d "|" -f 1,2 emp1.lst 
+ 2122  cut -d "|" -f 1,2* emp1.lst 
+ 2123  cut -d "|" -f [1-0] emp1.lst 
+ 2124  cut -d "|" -f [1-4] emp1.lst 
+ 2125  cut -d "|" -f ? emp1.lst 
+ 2126  cut -d "|" -f 1 emp1.lst 
+ 2127  cut -d "|" -f 1 2 emp1.lst 
+ 2128  cut -d "|" -f 1,2 emp1.lst 
+ 2129  cut -d "|" -f 12 emp1.lst 
+ 2130  cut -d "|" -f 1,2 emp1.lst 
+ 2131  cut -d "|" -f 1,2,3 emp1.lst 
+ 2132  cut -d "|" -f 1-3 emp1.lst 
+ 2133  man cut
+ 2134  cut -c 1-3 emp1.lst 
+ 2135  cut -c 2-4 emp1.lst 
+ 2136  cut -c 2 emp1.lst 
+ 2137  cut -c 2- emp1.lst 
+ 2138  cut -c -4 emp1.lst 
+ 2139  cut -d "|" -f 1- emp1.lst 
+ 2140  cut -d "|" -f 2- emp1.lst 
+ 2141  history
+ 2142  cut -c 3- emp1.lst 
+ 2143  history
+ 2144  cat emp1.lst 
+ 2145  cut -d "|" -f 5-5 emp1.lst 
+ 2146  cut -d "|" -f 5-4 emp1.lst 
+ 2147  cut -d "|" -f 5-5 emp1.lst 
+ 2148  cut -d "|" -f 5-6 emp1.lst 
+ 2149  cut -d "|" -f 5 emp1.lst 
+ 2150  cut -d "|" -f 5 emp1.lst | cut -d "/" -f 2 
+ 2151  cut -d "|" -f 5 emp1.lst | cut -d "/" -f 1 
+ 2152  cat emp1.lst 
+ 2153  cut -d "|" -f 5 emp1.lst | cut -d "/" -f 1 
+ 2154  git status
+ 2155  git add .
+ 2156  git status
+ 2157  lss
+ 2158  cd lss-repo/
+ 2159  ls
+ 2160* 
+ 2161  cat emp1.lst 
+ 2162  cd 29mar23-4apr23/
+ 2163  ls
+ 2164  cd filter/
+ 2165  ls
+ 2166  cat emp.lst 
+ 2167  cat emp1.lst 
+ 2168*  
+ 2169  man wc
+ 2170  cut -d "|" -f 5 emp1.lst | less -c2 
+ 2171  cut -d "|" -f 5 emp1.lst 
+ 2172* 
+ 2173  cut -d "|" -f 5 emp1.lst | less -c2 
+ 2174  cut -d "|" -f 5 emp1.lst | less -2 
+ 2175  cut -d "|" -f 5 emp1.lst | tail -2 
+ 2176  cut -d "|" -f 5 emp1.lst | tail -c2 
+ 2177  cut -d "|" -f 5 emp1.lst | for (i=0;i<5;i++) echo i 
+ 2178  for (i=0;i<5;i++) echo i 
+ 2179  ls
+ 2180  cat emp1.lst 
+ 2181  wc emp1.lst 
+ 2182  man wc
+ 2183  wc -w emp1.lst 
+ 2184  ls
+ 2185  head -5 emp1.lst
+ 2186* head -5 emp1.lst| tee short
+ 2187* 
+ 2188  mv cutlist2 cutlist1
+ 2189  cut -s "|" -f 1,4- shortlist > cutlist2
+ 2190  ls
+ 2191  cut -s "|" -f 1,4- shortlist > cutlist2
+ 2192  cat cutlist2
+ 2193  cut -s "|" -f 1,4- shortlist > cutlist2
+ 2194  cut -s "|" -f 1,4- shortlist >> cutlist2
+ 2195  cat shortlist 
+ 2196  cut -s "|" -f 1,4- shortlist 
+ 2197  cut -d "|" -f 1,4- shortlist
+ 2198  cut -d "|" -f 1,4- shortlist > cutlist2
+ 2199  cat cutlist1 
+ 2200  cat cutlist2
+ 2201  paste cutlist1 cutlist2
+ 2202  cat emp1.lst 
+ 2203  cut -d "|" -f emp1.lst 
+ 2204  cut -d "|" -f 1 emp1.lst 
+ 2205  cut -d "|" -f 1- emp1.lst 
+ 2206  head -1 emp1.lst 
+ 2207  head -1 emp1.lst | wc
+ 2208  head -1 emp1.lst | wc -w
+ 2209  ls
+ 2210  echo "dsa\tdsad"
+ 2211  echo -n "dsa\tdsad"
+ 2212  echo -e "dsa\tdsad"
+ 2213  paste cutlist1 cutlist2
+ 2214  paste -d "|" cutlist1 cutlist2
+ 2215  paste -d "$(echo -e "\t")" cutlist1 cutlist2
+ 2216  paste -d "$(echo -e "\t\t")" cutlist1 cutlist2
+ 2217  $(echo -e "\t\t")
+ 2218  $(echo -e "\t\tsd")
+ 2219  echo $(echo -e "\t\tsd")
+ 2220  echo "$(echo -e "\t\tsd")"
+ 2221  paste -d "$(echo -e "\ts\t")" cutlist1 cutlist2
+ 2222  paste -d "echo $(echo -e "\t\t")" cutlist1 cutlist2
+ 2223  paste -d "echo $(echo - "\t\t")" cutlist1 cutlist2
+ 2224  paste -d "echo" cutlist1 cutlist2
+ 2225  paste -d ">" cutlist1 cutlist2
+ 2226  paste -d ">>" cutlist1 cutlist2
+ 2227  paste -d "$(echo -e "\ts\t")" cutlist1 cutlist2
+ 2228  paste  cutlist1 cutlist2
+ 2229  paste -d "echo $(echo -e "\t\t")" cutlist1 cutlist2
+ 2230  paste -d "echo $(echo - "\t\t")" cutlist1 cutlist2
+ 2231  ls
+ 2232  cd
+ 2233* 
+ 2234  cat >> h.txt
+ 2235* 
+ 2236  ls
+ 2237  lss
+ 2238  cd lss-repo/
+ 2239  cd 29mar23-4apr23/
+ 2240  ls
+ 2241  cd filter
+ 2242  ls
+ 2243  cat row3.lst 
+ 2244  nano row3.lst 
+ 2245  cat row3.lst 
+ 2246  sort row3.lst 
+ 2247  sort -t "|" 
+ 2248  sort -t "|" row3.lst 
+ 2249  sort -t "S" row3.lst 
+ 2250  sort -t "|" -k row3.lst 
+ 2251  sort -t "|" -k 2 row3.lst 
+ 2252  sort -t "|" -k 4 row3.lst 
+ 2253  sort -t "|" -k 1- row3.lst 
+ 2254  sort -t "|" -k 1-2 row3.lst 
+ 2255  sort -t "|" -k 6 row3.lst 
+ 2256  sort -t "|" -k 7 row3.lst 
+ 2257  sort -t "|" -k 1 row3.lst 
+ 2258  sort -t "|" -c 1 row3.lst 
+ 2259  sort -c 1 row3.lst 
+ 2260  sort -t "|" -k 1 row3.lst 
+ 2261  sort -t "|" -k 6 row3.lst 
+ 2262  nano row3.ls
+ 2263  nano row3.lst 
+ 2264  sort -t "|" -k 1 row3.lst 
+ 2265  sort -t "|" -kr 1 row3.lst 
+ 2266  sort -t "|" -krn 1 row3.lst 
+ 2267  sort -t "|" -k -r 1 row3.lst 
+ 2268  sort -t "|" -k -r -n 1 row3.lst 
+ 2269  sort -t "|" -rk 1 row3.lst 
+ 2270  sort -t "|" -rkn 1 row3.lst 
+ 2271  sort -t "|" -rnk 1 row3.lst 
+ 2272  sort -t "|" -rk 1n row3.lst 
+ 2273  sort -t "|" -nrk 1 row3.lst 
+ 2274* 
+ 2275  sort -t "|" -rk 1 -n row3.lst 
+ 2276  sort -t "|" -rk 1n row3.lst 
+ 2277  sort -t "|" -nk 1n row3.lst 
+ 2278  sort -t "|" -nk 1 row3.lst 
+ 2279  man sort 
+ 2280  sort emp1.lst emp.lst cutlist1 
+ 2281  sort emp1.lst emp.lst
+ 2282  sort emp1.lst
+ 2283*  emp.lst
+ 2284  sort -t "|" -k 3 row3.lst 
+ 2285  sort -t "|" -k 1 row3.lst 
+ 2286  sort -t "|" -nk 1 row3.lst 
+ 2287  sort -t "|" -nk 3 row3.lst 
+ 2288  sort -t "|" -nk 3+ row3.lst 
+ 2289  sort -t "|" -k 3+ row3.lst 
+ 2290  sort -t "|" -k 3 row3.lst 
+ 2291  sort -t "|" -k +3 row3.lst 
+ 2292  cat shortlist 
+ 2293  sort -t "|" -k 3 row3.lst 
+ 2294  sort -t "|" -k +3 row3.lst 
+ 2295  cat shortlist 
+ 2296  sort -t "|" -k 3 shortlist
+ 2297  sort -t "|" -k +3 shortlist
+ 2298  sort -t "|" -k +2 shortlist
+ 2299  cat shortlist 
+ 2300  sort -t "|" -k +1 shortlist
+ 2301  sort -t "|" -k 2 shortlist
+ 2302  sort -t "|" -k 1 shortlist
+ 2303  sort -t "|" -k +0 shortlist
+ 2304  sort -t "|" -k +0 1 shortlist
+ 2305  sort -t "|" -k 1 shortlist
+ 2306  sort -t "|" -k 6 shortlist
+ 2307  sort -t "|" -k +5 shortlist
+ 2308  zsh
+ 2309  cat shortlist 
+ 2310  sort -t "|" -k 0 shortlist
+ 2311  sort -t "|" -k +1 shortlist
+ 2312  sort -t "|" -k 1 shortlist
+ 2313  sort -t "|" -k +2 shortlist
+ 2314  sort -t "|" -k 2 shortlist
+ 2315  sort -t "|" -k +3 shortlist
+ 2316  sort -t "|" -k 3 shortlist
+ 2317  sort -t "|" -kb 3 shortlist
+ 2318  sort -bt "|" -k 3 shortlist
+ 2319  sort -btb "|" -k 3 shortlist
+ 2320  sort -tb "|" -k 3 shortlist
+ 2321  sort -t -b "|" -k 3 shortlist
+ 2322  sort -t "|" -k - b 3 shortlist
+ 2323  sort -t "|" -k 3 shortlist
+ 2324  sort -t "|" -k 3,4 shortlist
+ 2325  sort -t "|" -k 3-4 shortlist
+ 2326  sort -t "|" -k 1 shortlist
+ 2327  sort -t "|" -k 1,2 shortlist
+ 2328  sort -t "|" -k 2 row3.lst 
+ 2329  sort -t "|" -k 1 row3.lst 
+ 2330  sort -t "|" -k 2 row3.lst 
+ 2331  sort -t "|" -k 4 row3.lst 
+ 2332  sort -t "|" -k 4,2 row3.lst 
+ 2333  sort -t "|" -k 2 row3.lst 
+ 2334  sort -t "|" -k 2,4 row3.lst 
+ 2335  sort -t "|" -k 4 row3.lst 
+ 2336  sort -t "|" -k 4,3 row3.lst 
+ 2337  sort -t "|" -k 4,5 row3.lst 
+ 2338  sort -t "|" -k 4,4 row3.lst 
+ 2339  sort -t "|" -k 3,4 row3.lst 
+ 2340  sort -t "|" -k 3,1 row3.lst 
+ 2341  sort -t "|" -k 3 -k 2 row3.lst 
+ 2342  sort -t "|" -k 4 -k 2 row3.lst 
+ 2343  sort -t "|" -k 4,4 -k 2,2 row3.lst 
+ 2344  cut -d "|" -f shortlist \\.c
+ 2345  cut -d "|" -f shortlist
+ 2346  cut -d "|" -f emp1.lst 
+ 2347  cut -d "|" -f 1 emp1.lst 
+ 2348  cut -d "|" -f 1 emp.lst 
+ 2349  cut -d "|" -f emp1.lst  
+ 2350  cut -d "|" -f  1 emp1.lst  
+ 2351  cat emp1.lst 
+ 2352  cut -d "|" -f  1 emp1.lst| uniq
+ 2353  cut -d "|" -f  1 emp1.lst| sort
+ 2354  cut -d "|" -f  4 emp1.lst| sort
+ 2355  cut -d "|" -f 4 emp1.lst| uniq
+ 2356  cat emp1.lst 
+ 2357  man uniq
+ 2358  cut -d "|" -f  4 emp1.lst| sort |uniq
+ 2359  grep "git" history
+ 2360  history| grep "git"
+ 2361  history
+ 2362  bc
+ 2363  who
+ 2364  logout
+ 2365  signout
+ 2366  grep "agarwal" emp1.lst 
+ 2367  grep "agarwal" emp.lst 
+ 2368  cat emp1.lst 
+ 2369  cat emp.lst 
+ 2370  grep "g.m" emp.lst emp1.lst 
+ 2371  grep "ales" emp.lst emp1.lst 
+ 2372  grep "sales" emp.lst emp1.lst 
+ 2373  wc
+ 2374  grep -i "agarwal" emp.lst 
+ 2375  grep -i "agarwal" emp1.lst 
+ 2376  history| cat history.txt
+ 2377  history > cat history.txt
+ 2378  cat history.txt
+ 2379  ls
+ 2380  touch history.txt
+ 2381  history > cat history.txt
+ 2382  history| cat history.txt
+ 2383  cat history.txt 
+ 2384  history | cat > history.txt
+ 2385  cat history.txt 
+ 2386  history | cat  history.txt
+ 2387  cat history.txt 
+ 2388  histosry | cat > history.txt
+ 2389  cat history.txt 
+ 2390  history > history.txt
+ 2391  cat history.txt 
+ 2392  greo director emp1.lst 
+ 2393  grep director emp1.lst 
+ 2394  grep -v director emp1.lst 
+ 2395  cat emp1.lst 
+ 2396  grep director emp1.lst 
+ 2397  grep -v director emp1.lst 
+ 2398  grep -e Agarwal emp1.lst 
+ 2399  grep -e Agarwal -e aggarwal emp1.lst 
+ 2400  grep -e Agarwal -e aggarwal -e agrawal emp1.lst 
+ 2401* 
+ 2402  history > history.txt
